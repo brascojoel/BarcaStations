@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Barca Stations</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_home">Home</string>
+    <string name="action_map">MAP (Bonus)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_details">DetailsActivity</string>
+
+    <string name="title_activity_full_city">FullCityActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".FormActivity">
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/take_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_round"
+                android:layout_marginTop="10dp"
+
+                android:padding="10dp"
+
+                android:text="Take image"
+
+
+                />
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/image_ed"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/bg_round"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/title_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_round"
+        android:padding="10dp"
+        android:hint="title"
+
+        />
+
+    <Button
+        android:id="@+id/validation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="OK"
+
+       android:background="@drawable/bg_round"
+
+        />
+
+</LinearLayout>
